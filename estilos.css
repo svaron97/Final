@@ -1,0 +1,18 @@
+.mynavbar{
+    background-color: #2C666E;
+}
+
+.mybutton{
+
+    background-color: #07393C;
+    border-radius: 10px;
+    color: white;
+    border: none;
+
+}
+
+.mybutton:hover{
+
+    background-color: black;
+    color:white; 
+}
