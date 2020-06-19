@@ -11,22 +11,137 @@
     <title>Trabajando ando</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark mynavbar">
-      <a class="navbar-brand" href="#">
-        <img src="./assets/logo.png" width="50" height="50" alt="" loading="lazy">
-      </a>
-      <a class="navbar-brand" href="#">Trabajando ando</a>
-      
-        <form class="form-inline mx-auto my-2 my-lg-0">
-          <input class="form-control mr-sm-2  type="search" placeholder="¿Que trabajo necesitas?" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-        </form>
-        <button class="btn btn-outline-success mybutton" type="button">¿Quieres ofrecer tu trabajo?</button>
-        <button class="btn btn-sm btn-outline-secondary" type="button">Inicia sesion</button>
-      </div>
-    </nav>
+    
+    <div class="" id="page-content-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-dark mynavbar">
+        <a class="navbar-brand" href="#" id="menu-toggle">
+          <img src="./assets/logo.png" width="50" height="50" alt="" loading="lazy">
+        </a>
+        <a class="navbar-brand" href="#" >Trabajando ando</a>
+        
+          <form class="form-inline mx-auto my-2 my-lg-0">
+            <input class="form-control mr-sm-2  type="search" placeholder="¿Que trabajo necesitas?" aria-label="Search">
+            <button class="btn btn-sm btn-outline-secondary my-2 my-sm-0 miboton" type="submit">Buscar</button>
+          </form>
+          <div class="d-flex justify-content-around">
+          <button class="btn btn-sm btn-outline-secondary mybutton miboton" type="button">¿Quieres ofrecer tu trabajo?</button>
+          <button class="btn btn-sm btn-outline-secondary miboton" type="button">Iniciar sesión</button>
+        </div>
+        </div>
+      </nav>
 
-    <!-- Optional JavaScript -->
+    <div class="d-flex " id="wrapper">
+
+      <!-- Sidebar -->
+      <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading">Selección de trabajos</div>
+        <div class="list-group list-group-flush">
+          <a href="#" class="list-group-item list-group-item-action bg-light">Destacados</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Para el hogar</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Para el auto</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Construcción</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Otros</a>
+          
+        </div>
+      </div>
+      <!-- /#sidebar-wrapper -->
+  
+      <!-- Page Content --> 
+      <div class="container d-flex flex-column justify-content-around" >
+
+        <div class="usuario d-flex justify-content-center">
+
+        
+          <div class="izq d-flex flex-column  justify-content-center align-items-center">
+            <img src="./assets/usuario.png" id="imagenusuario" alt="">
+            <h5>Nombre</h5>
+            <h5>Profesión</h5>
+          </div>
+          <div class="der d-flex flex-column  justify-content-center  ">
+            <h6>Ubicación</h6>
+            <h6>Costo por servicio</h6>
+            <h6>Experiencia</h6>
+            <h6>Rating</h6>
+            <div class="botones d-flex justify-content-end">
+              <button type="button" class="btn btn-light boton1">Contacto</button>
+              <button type="button" class="btn btn-light boton2">Ver más</button>
+            </div>
+           
+          </div >
+
+        </div>
+
+        <div class="usuario d-flex justify-content-center">
+
+        
+          <div class="izq d-flex flex-column  justify-content-center align-items-center">
+            <img src="./assets/usuario.png" id="imagenusuario" alt="">
+            <h5>Nombre</h5>
+            <h5>Profesion</h5>
+          </div>
+          <div class="der d-flex flex-column  justify-content-center  ">
+            <h6>Ubicación</h6>
+            <h6>Costo por servicio</h6>
+            <h6>Experiencia</h6>
+            <h6>Rating</h6>
+            <div class="botones d-flex justify-content-end">
+              <button type="button" class="btn btn-light boton1">Contacto</button>
+              <button type="button" class="btn btn-light boton2">Ver más</button>
+            </div>
+           
+          </div >
+
+        </div>
+
+        <div class="usuario d-flex justify-content-center">
+
+        
+          <div class="izq d-flex flex-column  justify-content-center align-items-center">
+            <img src="./assets/usuario.png" id="imagenusuario" alt="">
+            <h5>Nombre</h5>
+            <h5>Profesion</h5>
+          </div>
+          <div class="der d-flex flex-column  justify-content-center  ">
+            <h6>Ubicación</h6>
+            <h6>Costo por servicio</h6>
+            <h6>Experiencia</h6>
+            <h6>Rating</h6>
+            <div class="botones d-flex justify-content-end">
+              <button type="button" class="btn btn-light boton1">Contacto</button>
+              <button type="button" class="btn btn-light boton2">Ver más</button>
+            </div>
+           
+          </div >
+
+        </div>
+
+        
+          
+
+        
+
+         
+      
+
+
+        </div>
+          
+        
+
+      
+          
+         
+      <!-- /#page-content-wrapper -->
+     
+    <!-- /#wrapper -->
+  
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+    <!-- Menu Toggle Script -->
+    
+    <script src="main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
