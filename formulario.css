@@ -1,0 +1,56 @@
+body{ background-color: F0EDEE;
+
+}
+
+
+h1{
+    color: black;
+   
+  
+  }     
+
+  h2{
+    color: black; 
+  }
+
+
+  h3{
+    color: black;
+  }
+
+  h4{
+      
+      color: black;
+      margin-top: 10px;
+      text-align: center;
+  }
+
+
+  .padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+
+  .hijo{
+  background-color: F0EDEE ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: 0A090C;
+  
+}
+  .my-color{
+     margin-left: 660px;
+     margin-top: 10px;
+     background-color: 07393C;
+     border: transparent;
+    
+  }
+
+  .my-color:hover{
+    background-color: 07393C
+  }
+
